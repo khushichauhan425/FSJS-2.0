@@ -1,0 +1,113 @@
+/* You can not modify anything from the HTML file */
+/* You can only modify the CSS file */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 15vh;
+    align-items: center;
+    padding: 0 100px 0;
+}
+nav div, nav ul{
+    display: flex;
+    align-items: center;
+}
+ul li{
+    list-style-type: none;
+    margin-right: 50px;
+}
+button{
+    padding: 12px 45px;
+    border-radius: 8px;
+    border: 1px solid #222;
+}
+.button-group{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+.search-icon{
+    padding-right: 10px;
+}
+.hero-container{
+    height: 95vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.star:nth-child(2){
+    position: absolute;
+    margin: 100px;
+    left: 980px;
+}
+.star:nth-child(3){
+    position: absolute;
+    left: 600px;
+    bottom: 1px;
+    top: 500px;
+}
+.star>img{
+    width: 50px;
+}
+.globe{
+    position: absolute;
+    left: 650px;
+}
+.hero-container>div>img{
+    position: absolute;
+    overflow: hidden;
+    height: 450px;
+    left: 95px;
+}
+.hero-container span.square{
+    position: absolute;
+    bottom: -42px;
+    left: 113px;
+}
+.hero-container-right{
+    display: flex;
+    flex-direction: column;
+    padding-left: 600px;
+    padding-top: 150px;
+}
+.hero-heading{
+    font-size: 50px;
+}
+.hero-description{
+    font-size: 19px;
+    padding-top: 40px;
+}
+.hero-container-right>div{
+    
+    padding-top: 40px;
+    padding-left: 176px;
+}
+.button-email{
+    padding-left: 20px;
+    padding-bottom: 3px;
+    border: 1px solid;
+    padding-top: 3px;
+    padding-right: 20px;
+}
+.button-join{
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: black;
+    color: white;
+}
+.contact-heading{
+    padding-left: 90px;
+}
+.icons{
+    padding-top: 10px;
+    padding-left: 30px;
+}
+.icons > span{
+    margin-right: 15px;
+}
