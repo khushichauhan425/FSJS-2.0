@@ -1,0 +1,86 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+/*div{
+    display: flex;
+    flex-direction: row;
+}*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+nav{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+    padding: 0 10%;
+}
+.list{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: space-between;
+    color: #989898;
+}
+li:first-child{
+    color: black;
+}
+.nav-button{
+    background-color: #5955b3;
+    color: white;
+    border: none;
+    border-radius: 10px ;
+    padding: 15px;
+    width: 150px;
+    margin-top: 40px;
+}
+.button-group.nav-button{
+    float: right;
+}
+.heading-text{
+        /* margin-top: 60px; */
+        color: #3c2f60;
+        padding-top: 44px;
+        width: 246px;
+        height: 220px;
+        color: #24035e;
+        font-size: 44px;
+}
+span{
+    color: #5955b3;
+}
+.description{
+    color: #989898;
+}
+.banner-container{
+    place-content: center;
+    display: flex;
+    padding-left: 150px;
+}
+.banner-container > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.image{
+    width: 620px;
+    height: 420px;
+}
+.img-div{
+    padding-top: 20px;
+}
+.button-group{
+    margin-bottom: 40px;
+    /* display: flex; */
+    /* place-content: center; */
+    /* align-items: center; */
+}
