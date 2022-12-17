@@ -20,14 +20,21 @@ nav div, nav ul{
     display: flex;
     align-items: center;
 }
+ul li:nth-child(1){
+    font-size: larger;
+}
+
 ul li{
     list-style-type: none;
     margin-right: 50px;
+    font-family: 'Orbitron';
+    font-weight: 600;
 }
 button{
-    padding: 12px 45px;
-    border-radius: 8px;
-    border: 1px solid #222;
+    padding: 7px 35px;
+    border-radius: 14px;
+    border: 2px solid #222;
+    font-size: large;
 }
 .button-group{
     display: flex;
@@ -55,7 +62,7 @@ button{
     top: 500px;
 }
 .star>img{
-    width: 50px;
+    width: 40px;
 }
 .globe{
     position: absolute;
@@ -64,13 +71,22 @@ button{
 .hero-container>div>img{
     position: absolute;
     overflow: hidden;
-    height: 450px;
+    height: 390px;
     left: 95px;
 }
 .hero-container span.square{
     position: absolute;
-    bottom: -42px;
-    left: 113px;
+    bottom: 21px;
+    left: 176px;
+}
+.hero-container span.globe img{
+    position:absolute;
+    width: 60px;
+    height: 50px;
+}
+.hero-container span.square img{
+    height: 335px;
+    width: 286px;
 }
 .hero-container-right{
     display: flex;
@@ -79,11 +95,15 @@ button{
     padding-top: 150px;
 }
 .hero-heading{
-    font-size: 50px;
+    font-size: 44px;
+    font-family: 'Orbitron';
 }
 .hero-description{
-    font-size: 19px;
+    font-size: 13px;
     padding-top: 40px;
+    text-align: center;
+    padding-right: 55px;
+    font-family: 'Poppins';
 }
 .hero-container-right>div{
     
@@ -96,6 +116,7 @@ button{
     border: 1px solid;
     padding-top: 3px;
     padding-right: 20px;
+    font-family: 'Orbitron';
 }
 .button-join{
     padding-right: 10px;
@@ -104,9 +125,12 @@ button{
     padding-bottom: 5px;
     background-color: black;
     color: white;
+    font-family: 'Orbitron';
 }
 .contact-heading{
     padding-left: 90px;
+    color: grey;
+    font-family: 'Poppins'; 
 }
 .icons{
     padding-top: 10px;
