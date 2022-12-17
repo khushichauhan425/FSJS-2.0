@@ -11,6 +11,7 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    font-family: 'Poppins';
 }
 .navbar{
     background-color: black;
@@ -31,6 +32,7 @@ body{
 ul li{
     display: block;
     padding: 10px 30px;
+    
 }
 .line {
     border-left: 1px solid white;
@@ -47,42 +49,41 @@ ul li{
     color: white;
     padding: 15px 25px;
     border-radius: 10px;
+    height: 38px;
+    width: 129px;
 }
 [aria-label="hero"]{
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
-    height: 166px;
-}
-.bg-image{
-        position: absolute;
-        height: 86vh;
-        width: 100%;
 }
 .hero{
+    display: flex;
+    flex-direction: column;
+    place-items: center;
     position: relative;
     color: #ffffff;
-    top: 68px;
     width: 70%;
-    padding-left: 295px;
 }
 .hero-heading{
-    font-size: 72px;
+    text-align: center;
+    font-size: 61px;
 }
 .hero-description {
-    font-size: 30px;
+    font-size: 20px;
+    text-align: center;
 }
 .button-large {
-    margin-left: 165px;
     background-color: #ba0dc4;
     color: #ffffff;
     border: none;
     padding: 10px;
-    height: 60px;
-    width: 300px;
+    height: 50px;
+    width: 240px;
     font-size: 18px;
     border-radius: 10px;
     font-weight: bold;
     margin-top: 15px;
+    font-size: larger;
 }
