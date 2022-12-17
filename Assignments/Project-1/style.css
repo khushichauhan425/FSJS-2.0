@@ -30,6 +30,7 @@ nav{
     gap: 30px;
     justify-content: space-between;
     color: #989898;
+    font-family: 'Poppins';
 }
 li:first-child{
     color: black;
@@ -53,13 +54,16 @@ li:first-child{
         width: 246px;
         height: 220px;
         color: #24035e;
-        font-size: 44px;
+        font-size: 38px;
+        font-family: 'Poppins';
+        
 }
 span{
     color: #5955b3;
 }
 .description{
     color: #989898;
+    font-family: 'Poppins';
 }
 .banner-container{
     place-content: center;
@@ -80,6 +84,7 @@ span{
 }
 .button-group{
     margin-bottom: 40px;
+    font-family: 'Poppins';
     /* display: flex; */
     /* place-content: center; */
     /* align-items: center; */
