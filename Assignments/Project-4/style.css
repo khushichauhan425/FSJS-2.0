@@ -30,6 +30,7 @@ html, body,.container {
 .center{
     display: flex;
     place-items: center;
+    gap: 120px;
 }
 img{
     object-fit: cover;
