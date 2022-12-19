@@ -15,7 +15,6 @@ html,body {
     display: flex;
     gap: 45px;
     place-items: center;
-    /* padding-left: 120px; */
     padding-top: 20px;
 }
 .nav-list{
@@ -55,10 +54,6 @@ html,body {
     padding-bottom: 50px;
     padding-top: 50px;
     display: flex;
-    /* height: 130px; */
-    /* place-content: center; */
-    /* place-items: center; */
-    /* gap: 297px; */
 }
 .para{
     color: white;
