@@ -200,3 +200,28 @@ body{
     background-color: #4f4f4f;
     outline-width: 3px;
 }
+.mid{
+    display: flex;
+    background-color: #fceffb;
+    /* height: 180vh; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.mid-section{
+    text-align: center;
+}
+.mid-section>p:nth-child(1){
+    margin: 4% 20% 2% 20%;
+    text-align: center;
+    color: black;
+    font-size: 45px;
+}
+.mid-section>p:nth-child(1)>span{
+    color: #f637ec;
+}
+.mid-section>p:nth-child(2){
+    font-size: 20px;
+    color: #acacac;
+    margin: 3% 20% 3% 20%;
+}
