@@ -25,13 +25,25 @@ body{
     justify-content: space-around;
     gap: 40px;
 }
+.nav-list>li:hover{
+    color: #f637ec;
+    cursor: pointer;;
+}
  .nav-right{
     display: flex;
     flex-direction: row;
 } 
+.nav-right>div:nth-child(1):hover{
+    cursor: pointer;
+    color: #c53ecf;
+}
 .contact-us{
     display: flex;
     flex-direction: row;
+}
+.contact-us:hover{
+    cursor: pointer;
+    color: #c53ecf;
 }
 .cont-pink-img{
     position: relative;
@@ -288,6 +300,10 @@ body{
     border-radius: 10px;
     background-color: #5c5c5c;
 }
+.switch-btn:hover{
+    cursor: pointer;
+    background-color: #c53ecf;
+}
 .sec-last-switch{
     display: flex;
     flex-direction: row;
@@ -342,5 +358,26 @@ body{
 }
 .last-sec-gs{
     margin-top: 40px;
-    margin-bottom: 200px;
+    margin-bottom: 130px;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    margin: 100px 90px 100px 90px;
+}
+.footer-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: #c5c5c5;
+}
+.list{
+    display: flex;
+    flex-direction: row;
+    gap: 45px;
+}
+.list>li:hover{
+    cursor: pointer;
+    color: #c53ecf;
 }
