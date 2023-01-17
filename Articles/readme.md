@@ -6,3 +6,5 @@
 5. A complete guide to Box Model in CSS [Click here](https://khushichauhan425.hashnode.dev/box-model-in-css)
 6. Positioning in CSS [Click here](https://khushichauhan425.hashnode.dev/positioning-in-css)
 7. Git and Github for beginners [Click here](https://khushichauhan425.hashnode.dev/git-and-github-for-beginners)
+8. CSS Media Queries [Click here](https://khushichauhan425.hashnode.dev/css-media-queries)
+9. Array methods in Javascript [Click here](https://khushichauhan425.hashnode.dev/array-methods-in-javascript)
