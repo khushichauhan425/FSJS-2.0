@@ -40,6 +40,12 @@ body{
     flex-direction: column;
     gap: 20px;
 }
+.heading{
+    font-size: 86px;
+    font-weight: 500;
+    /* line-height: 1; */
+    margin-bottom: 30px;
+}
 .heading span{
     color: #0c8bfd;
     font-style: italic;
