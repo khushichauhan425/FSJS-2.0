@@ -92,3 +92,73 @@ body{
     background-color: #2e99f7;
     border: none;
 }
+.logos-sec{
+    background-color: #1d1c1c;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.logos{
+    display: flex;
+    gap: 150px;
+    flex-wrap: wrap;
+}
+.service-feature{
+    background-color: #ffffff;
+}
+.service{
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    margin: 65px;
+}
+.service-titles>p:nth-child(1){
+    text-align: center;
+    color: black;
+    font-weight: 500;
+    font-size: 45px;
+}
+.service-titles>p:nth-child(2){
+    color: #c1c0c0;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.service-item{
+    display: flex;
+    flex-direction: row;
+    place-items: center;
+    gap: 50px;
+}
+.service-item>div{
+    height: 260px;
+    width: 270px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 18px;
+    text-align: center;
+    padding: 15px;
+}
+.service-item>div:nth-child(odd){
+    border: 2px solid #949494;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+}
+.service-item>div:nth-child(even){
+    border-radius: 20px;
+    background-color: black;
+    border: 3px solid black;
+}
+.serv-itm-box>p:nth-child(2){
+    font-weight: bolder;
+    font-size: 17px;
+}
+.serv-itm-box>p:nth-child(3){
+    color: #949494;
+    font-size: 14px;
+}
