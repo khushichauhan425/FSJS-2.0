@@ -193,3 +193,40 @@ body{
 .customer-review-sec{
     background-color: white;
 }
+.price-boxes{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin-top: 50px;
+}
+.price-boxes>div:nth-child(odd){
+    background-color: white;
+    color: black;
+}
+.price-boxes>div:nth-child(even){
+    background-color: #0c8bfd;
+    color: white;
+}
+.price-box{
+    height: 500px;
+    padding: 20px;
+    /* border: 2px solid; */
+    border-radius: 25px;
+    width: 350px;
+}
+.plan-name{
+    font-weight: bolder;
+    font-size: 25px;
+}
+.plan-price{
+    font-weight: bolder;
+    font-size: 30px;
+}
+.plan-price>span{
+    color: #949494;
+    font-size: 15px;
+    font-weight: bold;
+}
+.plan-des{
+    font-weight:500;
+}
