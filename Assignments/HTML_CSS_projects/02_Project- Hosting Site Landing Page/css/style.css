@@ -213,6 +213,8 @@ body{
     /* border: 2px solid; */
     border-radius: 25px;
     width: 350px;
+    display: flex;
+    flex-direction: column;
 }
 .plan-name{
     font-weight: bolder;
@@ -229,4 +231,27 @@ body{
 }
 .plan-des{
     font-weight:500;
+}
+.plan-details{
+    display: flex;
+    flex-direction: row;
+}
+.box-line{
+    width: 100%;
+    height: 1px;
+    background: #949494;
+}
+.select-btn{
+    width: 280px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid;
+}
+.select-btn{
+    background-color: #0c8bfd;
+    color: white;
+} 
+.price-box:nth-child(2) .sec-sel-btn{
+    background-color: white;
+    color: #0c8bfd;
 }
