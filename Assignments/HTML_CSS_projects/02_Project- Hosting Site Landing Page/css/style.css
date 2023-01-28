@@ -304,3 +304,50 @@ body{
 .reviewer-details>p:nth-child(1){
     font-weight: bold;
 }
+.reviews-scroll{
+    height: 5px;
+    background-color: #c0c0c0;
+    border-radius: 3px ;
+}
+.signup-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.signup-title{
+    font-size: 50px;
+    font-weight: 500;
+    width: 70%;
+    margin-left: 80px;
+    margin-bottom: 75px;
+}
+.signup{
+    background-color: #292828;
+    padding: 50px 30px;
+    border-radius: 30px;
+    display: flex;
+    gap: 20px;
+}
+.signup-field{
+    background-color: #3e3d3d;
+    border: none;
+    padding: 4px 15px;
+    border-radius: 40px;
+    font-size: 18px;
+}
+.signup-field:hover{
+    border: 1px solid #585858;
+}
+.signup-btn{
+    background-color: #2e99f7;
+    border: none;
+    color: #dcdcdc;
+    padding: 22px 40px;
+    border-radius: 40px;
+    font-size: 20px;
+}
+.signup-section,.footer{
+    background-color: #111010;
+}
