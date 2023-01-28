@@ -348,6 +348,61 @@ body{
     border-radius: 40px;
     font-size: 20px;
 }
-.signup-section,.footer{
-    background-color: #111010;
+.signup-line{
+    height: 2px;
+    background-color: #585858;
+    margin: 100px 120px 80px 120px;
+}
+.sign-line-two{
+    margin-bottom: 20px;
+    margin-top: 80px;
+}
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 180px;
+}
+.footer-list{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: #858585;
+    font-weight: 500;
+}
+.footer-list>li:nth-child(1){
+    font-size: 20px;
+}
+.footer-img{
+    margin: 20px 0px 75px 120px;
+}
+.features-section{
+    color: black;
+}
+.features{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.feature-options{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.fea-option{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: white;
+    color: black;
+    border: 2px solid gray;
+}
+.fea-option:nth-child(1){
+    background-color: #0c8bfd;
 }
