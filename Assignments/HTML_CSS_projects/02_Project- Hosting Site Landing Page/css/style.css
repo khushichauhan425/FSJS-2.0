@@ -210,11 +210,11 @@ body{
 .price-box{
     height: 500px;
     padding: 20px;
-    /* border: 2px solid; */
     border-radius: 25px;
     width: 350px;
     display: flex;
     flex-direction: column;
+    gap: 15px;
 }
 .plan-name{
     font-weight: bolder;
@@ -226,7 +226,7 @@ body{
 }
 .plan-price>span{
     color: #949494;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: bold;
 }
 .plan-des{
@@ -235,6 +235,7 @@ body{
 .plan-details{
     display: flex;
     flex-direction: row;
+    gap: 10px;
 }
 .box-line{
     width: 100%;
@@ -254,4 +255,52 @@ body{
 .price-box:nth-child(2) .sec-sel-btn{
     background-color: white;
     color: #0c8bfd;
+}
+.customer-review-sec{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-left: 80px;
+    padding-bottom: 50px;
+    gap: 50px;
+}
+.review-headline{
+    display: flex;
+    flex-direction: row;
+    /* place-content: center; */
+    color: black;
+    gap: 260px;
+}
+.rev-title{
+    display: flex;
+    font-size: 50px;
+}
+.rev-des{
+    color: #949494;
+}
+.review-box{
+    border: 2px solid black;
+    border-radius: 20px;
+    height: 260px;
+    width: 550px;
+    padding: 25px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+.review-box:nth-child(1){
+    background-color: black;
+    color: white;
+}
+.review-box:nth-child(2){
+    background-color: white;
+    color: black;
+}
+.reviews{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+.reviewer-details>p:nth-child(1){
+    font-weight: bold;
 }
