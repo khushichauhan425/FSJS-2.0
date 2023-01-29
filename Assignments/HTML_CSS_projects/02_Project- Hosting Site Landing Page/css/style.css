@@ -22,6 +22,10 @@ body{
     display: flex;
     gap: 40px;
 }
+.nav-list>li:hover{
+    cursor: pointer;
+    color: #0c8bfd;
+}
 .button{
     background-color: #0c8bfd;
     color: white;
@@ -29,6 +33,10 @@ body{
     width: 80px;
     height: 35px;
 } 
+.button:hover{
+    cursor: pointer;
+    background-color: #353434;
+}
 .middle{
     display: flex;
     margin: 60px 8%;
@@ -59,10 +67,16 @@ body{
     font-size: 15px;
     padding:10px 20px;
     background-color: #2e99f7;
+    border-radius: 20px;
+}
+.gs-btn:hover{
+    cursor: pointer;
+    background-color: #353434;
 }
 .tsf-btn{
     color: #ffffff;
-    border: 1px solid #ffffff;  
+    border: 1px solid white;
+    border-radius: 20px;  
     font-size: 15px;
     padding:10px 20px;
     background-color: black; 
@@ -231,6 +245,10 @@ body{
     background-color: #0c8bfd;
     color: white;
 } 
+.select-btn:hover{
+    cursor: pointer;
+    background-color: #353434;
+}
 .price-box:nth-child(2) .sec-sel-btn{
     background-color: white;
     color: #0c8bfd;
@@ -349,6 +367,10 @@ body{
     gap: 15px;
     color: #858585;
     font-weight: 500;
+}
+.footer-list>li:hover{
+    cursor: pointer;
+    color: white;
 }
 .footer-list>li:nth-child(1){
     font-size: 20px;
