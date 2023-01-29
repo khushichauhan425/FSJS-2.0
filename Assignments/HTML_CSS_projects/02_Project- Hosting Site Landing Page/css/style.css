@@ -28,28 +28,7 @@ body{
     border-radius: 18px;
     width: 80px;
     height: 35px;
-}
-/* .middle{
-    justify-content: space-between;
-    display: flex;
-    flex-direction: row;
-    margin: 2% 5%;
-}
-.container{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-.heading{
-    font-size: 86px;
-    font-weight: 500;
-    /* line-height: 1; */
-    /* margin-bottom: 30px;
-}
-.heading span{
-    color: #0c8bfd;
-    font-style: italic;
-} */ 
+} 
 .middle{
     display: flex;
     margin: 60px 8%;
