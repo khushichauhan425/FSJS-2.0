@@ -39,3 +39,21 @@ place.placeholder="Search My Project";
 
 //Sol 2. Hiding hire me
 li.style.display="none";
+
+//Task 3:-
+//1. Change back the search placeholder to search.
+//2. Show the social media icons- in footer.
+//3. Changing the description.
+
+//Sol 1. Change back the search placeholder to search.
+place.placeholder="Search";
+
+//Sol 2. Show the social media icons- in footer.
+ulf.style.display="";
+
+//Sol 3. Changing the description.
+let sec = document.querySelector(".hero-left-section");
+let description=sec.querySelector("p");
+
+description.children[2].innerText="an Employee";
+description.children[4].innerText="iNeuron Intelligence Pvt Ltd";
