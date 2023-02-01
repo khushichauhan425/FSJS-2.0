@@ -57,3 +57,31 @@ let description=sec.querySelector("p");
 
 description.children[2].innerText="an Employee";
 description.children[4].innerText="iNeuron Intelligence Pvt Ltd";
+
+//Task 4:- 
+//1. Changing the description.
+//2. Changing the portfolio image
+
+//Sol 1. Changing the description.
+description.children[4].innerText="National and International Client";
+
+//Sol 2. Changing the portfolio image
+let block=document.querySelector(".hero-right-section");
+let image=block.querySelector("img");
+
+image.src="";
+
+//Task 5:- 
+//1. Changing the portfolio image
+//2. Adding a new Support Me button.
+
+//Sol 1. Changing the portfolio image
+image.src="./avtar.png";
+
+//Sol 2. Adding a new Support Me button.
+let section = document.querySelector(".hero-right-section-btns");
+
+let supportMeBtn=document.createElement("button");
+supportMeBtn.innerText="Support Me";
+
+section.appendChild(supportMeBtn);
