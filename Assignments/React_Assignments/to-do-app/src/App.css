@@ -1,0 +1,46 @@
+.main-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+body{
+  background-color: #3B70A4;
+  overflow: hidden;
+}
+.head-container{
+  height: 500px;
+  width: 350px;
+}
+.input-container{
+  display:  flex;
+  gap: 20px;
+  
+}
+.input-box{
+  height: 30px;
+  width: 210px;
+  border-radius: 10px;
+}
+.add-btn{
+  height: 30px;
+  width: 50px;
+  border-radius: 10px;
+  background-color: #063564;
+  color: white;
+}
+.list-item{
+  list-style: none;
+  display: flex;
+  padding: 7px;
+  border: 2px solid white;
+  justify-content: space-between;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+.icon-delete::before{
+  color: black;
+}
+.icon-delete::after{
+  color: red;
+}
